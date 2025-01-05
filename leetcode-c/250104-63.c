@@ -47,7 +47,7 @@ int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obst
 
 
 // dp
-// 找路径
+//  找路径
 // 傻逼真傻逼
 // 在运行中可以跑通，在提交中跑不通
 // 原因在于，2者的环境下 int dp[101][101]初始值不同，前者是0，后者是1
