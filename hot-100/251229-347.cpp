@@ -14,7 +14,7 @@ public:
         swap(v[picked], v[start]);
         int pivot = v[start].second;
         int index = start;
-        for (int i = start; i <= end; i++)
+        for (int i = start + 1; i <= end; i++)
         {
             if(v[i].second >= pivot){
                 swap(v[index + 1], v[i]);
@@ -44,7 +44,7 @@ public:
             values.push_back(kv);
         }
         vector<int> ret;
-        qsort(values, 0, values.size(), ret, k);
+        qsort(values, 0, values.size() - 1, ret, k);
         return ret;
     }
 };
