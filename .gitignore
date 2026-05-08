@@ -1,1 +1,42 @@
+# 编译产物
 *.exe
+*.out
+*.o
+*.obj
+*.ilk
+*.pdb
+*.log
+*.tlog
+*.manifest
+
+# 构建目录
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# IDE 和编辑器
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# CMake 生成
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# 其他
+.claude/
